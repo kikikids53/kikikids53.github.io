@@ -8,6 +8,8 @@
 <meta name="keywords" content="台東親子民宿,台東包棟民宿,台東市民宿,琪琪親子民宿,台東民宿推薦,親子民宿遊戲區,台東嬰兒友善住宿">
 <meta name="theme-color" content="#F48FB1">
 <meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+<meta name="googlebot" content="noindex, nofollow">
 <link rel="canonical" href="https://kikikids53.github.io/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="台東琪琪親子民宿｜最好的，給最愛的">
@@ -289,320 +291,26 @@ footer .wrap{border-top:1px solid rgba(255,255,255,.12);padding-top:22px;display
 dialog{border:0;padding:0;background:transparent;max-width:min(96vw,1100px);max-height:92vh}
 dialog::backdrop{background:rgba(40,28,52,.82)}
 dialog img{max-height:86vh;width:auto;margin:auto;border-radius:18px}
-dialog button{position:fixed;top:calc(14px + env(safe-area-inset-top,0px));right:16px;width:44px;height:44px;border-radius:50%;border:0;background:#fff;font-size:22px;cursor:pointer}
+#lbClose{position:fixed;top:calc(14px + env(safe-area-inset-top,0px));right:16px;width:44px;height:44px;border-radius:50%;border:0;background:#fff;font-size:22px;cursor:pointer}
+
+/* demo protection */
+body{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+img{-webkit-user-drag:none}
+.demo-bar{background:repeating-linear-gradient(-45deg,#3A2E4B 0 18px,#2E2440 18px 36px);color:#fff;font-size:13px;line-height:1.6;text-align:center;padding:10px 16px}
+.demo-bar b{color:var(--lemon)}
+.wm{position:fixed;inset:0;z-index:55;pointer-events:none;background-size:360px 220px}
+.toast{position:fixed;left:50%;bottom:calc(90px + env(safe-area-inset-bottom,0px));transform:translate(-50%,16px);background:#3A2E4B;color:#fff;padding:12px 20px;border-radius:14px;font-size:14px;opacity:0;transition:opacity .25s,transform .25s;z-index:80;pointer-events:none;width:max-content;max-width:calc(100% - 32px);text-align:center}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+#notice{max-width:min(92vw,480px);background:#fff;color:var(--ink);border-radius:26px;padding:28px 26px}
+#notice h2{font-size:26px;margin:2px 0 10px}
+#notice p{color:var(--ink-soft);font-size:15px}
+#notice ul{margin:14px 0 20px;padding-left:1.2em;font-size:14px;display:grid;gap:6px}
+#notice .btn{width:100%}
+@media print{body>*{display:none!important}body::after{content:"此網站為九號科技工作室 NINTH LAB 提案展示版本，禁止列印或轉存。";display:block;padding:40px;font-size:18px}}
 </style>
 </head>
 <body>
-
-<header class="top">
-  <div class="wrap">
-    <a class="brand" href="#top" aria-label="台東琪琪親子民宿 首頁">
-      <svg width="42" height="42" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="18" fill="#F48FB1"/><path d="M32 12l5.9 12 13.1 1.9-9.5 9.3 2.2 13L32 42l-11.7 6.2 2.2-13-9.5-9.3 13.1-1.9z" fill="#FFD95A"/></svg>
-      <span><strong>琪琪親子民宿</strong><small>KIKI KIDS 53 · TAITUNG</small></span>
-    </a>
-    <nav aria-label="主選單"><ul class="menu">
-      <li><a href="#play">遊戲區</a></li>
-      <li><a href="#rooms">房型價格</a></li>
-      <li><a href="#parents">嬰幼兒備品</a></li>
-      <li><a href="#rules">訂房須知</a></li>
-      <li><a href="#location">交通</a></li>
-      <li><a href="#faq">問答</a></li>
-    </ul></nav>
-    <a class="btn btn-pink" href="#contact">立即訂房</a>
-  </div>
-  <div class="bunting" aria-hidden="true"></div>
-</header>
-
-<main id="top">
-  <section class="hero">
-    <div class="wrap">
-      <div>
-        <span class="since"><b>2015</b>台東市區 · 合法包棟親子民宿</span>
-        <h1>最好的，<br><span class="love">給最愛的</span></h1>
-        <p class="lead">幼教背景的主人，把整棟房子變成孩子的遊樂園：冷氣遊戲區、電動偉士牌小車、帳篷床與公主馬車床。尿布、澡盆、消毒鍋都幫你準備好，爸媽只要帶著孩子來。</p>
-        <div class="ctas">
-          <a class="btn btn-pink" href="#contact">查詢空房</a>
-          <a class="btn btn-soft" href="#rooms">看房型與價格</a>
-        </div>
-      </div>
-      <div class="stack">
-        <div class="main"><img src="https://tw5168.com.tw/photos/hotelsite/hotelpic/22101207630738.webp" alt="琪琪親子民宿室內冷氣遊戲區，粉藍拼接地墊與溜滑梯、玩具車" width="1477" height="1108" fetchpriority="high" referrerpolicy="no-referrer"></div>
-        <figure class="polaroid" style="margin:0"><img src="https://tw5168.com.tw/photos/uploads/h55/up-1788943144575-79c8c1.webp" alt="一整排兒童電動偉士牌機車" loading="lazy" referrerpolicy="no-referrer"><span>偉士牌小車隊，免費騎！</span></figure>
-        <div class="sticker"><span><b>24h</b>點心吧<br>無限供應</span></div>
-      </div>
-    </div>
-    <div class="wrap" style="margin-top:44px">
-      <div class="facts">
-        <div><b>3</b><span>間四人親子房</span></div>
-        <div><b>12</b><span>人包棟最多入住</span></div>
-        <div><b>1房1位</b><span>免費私人停車</span></div>
-        <div><b>0元</b><span>洗衣・烘衣・晾曬</span></div>
-        <div><b>1039</b><span>臺東縣合法民宿</span></div>
-      </div>
-    </div>
-  </section>
-
-  <div class="mat" aria-hidden="true"></div>
-
-  <section id="play" class="sec play">
-    <div class="wrap">
-      <div class="head">
-        <div><span class="eyebrow">Play Room</span><h2>一整層的冷氣遊戲區</h2></div>
-        <p>彩虹牆、星星燈、粉藍拼接地墊，進口歐美遊具加上整排電動小車。台東的大太陽或午後雷陣雨，都擋不住孩子放電。</p>
-      </div>
-      <div class="play-grid">
-        <div class="play-photos">
-          <img src="https://tw5168.com.tw/photos/hotelsite/hotelpic/22101207630741.webp" alt="遊戲區彩虹壁畫、兒童車與按摩椅" loading="lazy" referrerpolicy="no-referrer">
-          <img src="https://tw5168.com.tw/photos/hotelsite/hotelpic/16114130Jfatermini.webp" alt="孩子在遊戲區騎玩具車" loading="lazy" referrerpolicy="no-referrer">
-          <img src="https://tw5168.com.tw/photos/uploads/h55/up-1788943142431-0caf06.webp" alt="遊戲區玩具與溜滑梯" loading="lazy" referrerpolicy="no-referrer">
-        </div>
-        <div class="play-card">
-          <h3 style="font-size:22px">遊戲區開放時間</h3>
-          <div class="hours">
-            <div><span>入住當天</span><b>16:00–21:00</b></div>
-            <div><span>隔天早上</span><b>08:00–11:00</b></div>
-          </div>
-          <h3 style="font-size:18px">玩什麼？</h3>
-          <ul class="toys">
-            <li>電動偉士牌小車</li><li>溜滑梯</li><li>鞦韆</li><li>搖搖木馬</li><li>工程車・扭扭車</li><li>積木</li><li>籃球框</li><li>繪本</li><li>腳踏車</li>
-          </ul>
-          <p style="color:var(--ink-soft);font-size:15px">大人也有 FUJI 按摩椅可以坐，孩子玩、爸媽喘口氣。遊戲區就在點心吧旁邊，餓了隨手拿。</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="rooms" class="sec">
-    <div class="wrap">
-      <div class="head">
-        <div><span class="eyebrow">Rooms</span><h2>三間主題親子房</h2></div>
-        <p>每間都是一大床＋一床（加大雙人＋標準雙人），兩大兩小剛剛好；房裡就有溜滑梯或帳篷，孩子一進門就不想出來。</p>
-      </div>
-      <div class="rooms">
-        <article class="room">
-          <div class="gallery">
-            <img src="https://tw5168.com.tw/photos/hotelsite/room/230354092.webp" alt="2樓陽台房 粉紅公主馬車床" loading="lazy" referrerpolicy="no-referrer">
-            <img src="https://tw5168.com.tw/photos/hotelsite/room2/231005038.webp" alt="2樓陽台房 雙床與溜滑梯" loading="lazy" referrerpolicy="no-referrer">
-            <img src="https://tw5168.com.tw/photos/hotelsite/room2/231005039.webp" alt="2樓陽台房 房內一角" loading="lazy" referrerpolicy="no-referrer">
-          </div>
-          <div class="info">
-            <span class="floor" style="background:var(--pink-tint);color:var(--pink-deep)">2F · 陽台房</span>
-            <h3>粉紅公主馬車房</h3>
-            <p class="desc">公主馬車床、粉紅溜滑梯與皇冠壁貼，小公主的夢幻城堡。附獨立陽台，洗好的衣服直接晾。</p>
-            <ul class="chips"><li>4 人房</li><li>公主馬車床</li><li>房內溜滑梯</li><li>獨立陽台</li></ul>
-            <div class="price"><div><span>平日</span><b>3,500</b> <small>起</small></div><div><span>假日</span><b>3,800</b> <small>起</small></div><div><span>定價</span><b>5,000</b></div></div>
-          </div>
-        </article>
-        <article class="room">
-          <div class="gallery">
-            <img src="https://tw5168.com.tw/photos/hotelsite/room2/24020428722577.webp" alt="3樓窗戶房 藍色帳篷床與汽車地墊" loading="lazy" referrerpolicy="no-referrer">
-            <img src="https://tw5168.com.tw/photos/hotelsite/room/2212042301GKGYDZRKY2XJTAM05W3PAHRF.webp" alt="3樓窗戶房 帳篷與溜滑梯" loading="lazy" referrerpolicy="no-referrer">
-            <img src="https://tw5168.com.tw/photos/hotelsite/room2/231036521697472131893.webp" alt="3樓窗戶房 電視與書桌" loading="lazy" referrerpolicy="no-referrer">
-          </div>
-          <div class="info">
-            <span class="floor" style="background:var(--sky-tint);color:#2F78AE">3F · 窗戶房</span>
-            <h3>藍色帳篷小鎮房</h3>
-            <p class="desc">帳篷床搭配城市道路地墊，小車車在房間裡也能上路；採光明亮的大窗戶。</p>
-            <ul class="chips"><li>4 人房</li><li>帳篷床</li><li>帳篷溜滑梯</li><li>道路遊戲地墊</li></ul>
-            <div class="price"><div><span>平日</span><b>3,500</b> <small>起</small></div><div><span>假日</span><b>3,800</b> <small>起</small></div><div><span>定價</span><b>5,000</b></div></div>
-          </div>
-        </article>
-        <article class="room">
-          <div class="gallery">
-            <img src="https://tw5168.com.tw/photos/hotelsite/room2/231050311697471929470.webp" alt="3樓陽台房 彩旗、帳篷與按摩椅" loading="lazy" referrerpolicy="no-referrer">
-            <img src="https://tw5168.com.tw/photos/hotelsite/room2/2211594520221123_105902.webp" alt="3樓陽台房 露營帳篷床與玩具車" loading="lazy" referrerpolicy="no-referrer">
-            <img src="https://tw5168.com.tw/photos/hotelsite/room2/24020247421114954_844519824351523_1123691130789149597_n.webp" alt="3樓陽台房 Dyson 空氣清淨機與按摩椅" loading="lazy" referrerpolicy="no-referrer">
-          </div>
-          <div class="info">
-            <span class="floor" style="background:var(--mint-tint);color:#2A8A76">3F · 陽台房</span>
-            <h3>露營派對按摩房</h3>
-            <p class="desc">彩色派對旗、露營帳篷床，房內還有按摩椅與 Dyson 三合一空氣清淨機，是爸媽最愛的一間。</p>
-            <ul class="chips"><li>4 人房</li><li>露營帳篷床</li><li>房內按摩椅</li><li>Dyson 清淨機</li><li>獨立陽台</li></ul>
-            <div class="price"><div><span>平日</span><b>3,500</b> <small>起</small></div><div><span>假日</span><b>3,800</b> <small>起</small></div><div><span>定價</span><b>5,000</b></div></div>
-          </div>
-        </article>
-      </div>
-      <div class="allrooms">
-        <h3>每間房都有</h3>
-        <ul>
-          <li>65 吋聯網電視・160+ 頻道</li><li>HCG 智能免治馬桶座</li><li>HITACHI 冷暖空調</li><li>Dyson 吹風機</li><li>乾濕分離衛浴</li><li>德國原裝沐浴備品</li><li>冰箱</li><li>免費 WiFi</li>
-        </ul>
-      </div>
-      <p class="fine">＊價格為新台幣／每房每晚，依日期浮動，以訂房確認為準。包棟價格、農曆春節房價請來電洽詢。加床 200 元起；嬰兒床免費，請於訂房時預約。房型暱稱為網站暫定。</p>
-    </div>
-  </section>
-
-  <div class="mat" aria-hidden="true"></div>
-
-  <section id="parents" class="sec">
-    <div class="wrap parents">
-      <div class="duo">
-        <img src="https://tw5168.com.tw/photos/hotelsite/hotelpic/IMG_7503.webp" alt="兒童澡盆與洗澡玩具" loading="lazy" referrerpolicy="no-referrer">
-        <img src="https://tw5168.com.tw/photos/hotelsite/hotelpic/190611030604-2.webp" alt="奶瓶消毒鍋與奶瓶清潔用品" loading="lazy" referrerpolicy="no-referrer">
-      </div>
-      <div>
-        <span class="eyebrow">Baby Ready</span>
-        <h2 style="font-size:clamp(30px,4vw,44px);font-weight:800">行李少一半，<br>0–3 歲寶寶也安心</h2>
-        <p style="margin-top:14px;color:var(--ink-soft)">主人有幼教背景，知道帶寶寶出門最麻煩的是什麼。這些琪琪都準備好了：</p>
-        <ul class="check">
-          <li>奶瓶消毒鍋</li><li>兒童澡盆・洗澡玩具</li>
-          <li>尿布台</li><li>施巴嬰幼兒旅行組</li>
-          <li>兒童餐具</li><li>迷你電鍋・瞬熱壺</li>
-          <li>嬰兒床（需預約）</li><li>樓梯安全擋板</li>
-          <li>簡易醫藥箱・耳溫槍</li><li>飲水機</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="sec" style="padding-top:0">
-    <div class="wrap">
-      <div class="head">
-        <div><span class="eyebrow">Free for Guests</span><h2>房客專屬，全部免費</h2></div>
-      </div>
-      <div class="spaces">
-        <article class="space">
-          <img src="https://tw5168.com.tw/photos/uploads/h55/up-1788943147452-519963.webp" alt="24小時自助點心區，餅乾糖果與飲料" loading="lazy" referrerpolicy="no-referrer">
-          <div><h3>24 小時點心吧</h3><p>餅乾、糖果、飲料、礦泉水，房客專屬、內用自取，半夜肚子餓也不怕。</p></div>
-        </article>
-        <article class="space">
-          <img src="https://tw5168.com.tw/photos/hotelsite/room/2212522301GKGM5772QD7TT7XH7EECVT3H.webp" alt="公用洗衣間，洗衣機與烘衣設備" loading="lazy" referrerpolicy="no-referrer">
-          <div><h3>免費洗衣間</h3><p>洗衣、烘乾、晾曬設備用品齊全，多住幾晚也不用帶一大箱衣服。</p></div>
-        </article>
-        <article class="space">
-          <img src="https://tw5168.com.tw/photos/hotelsite/plant/25063616717229_0.webp" alt="民宿私人停車場" loading="lazy" referrerpolicy="no-referrer">
-          <div><h3>私人停車場</h3><p>每 1 房 1 車位，入住日下午 4 點到退房日上午 11 點都能停；另提供行李寄放。</p></div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section id="rules" class="sec rules">
-    <div class="wrap">
-      <div class="head">
-        <div><span class="eyebrow">Good to Know</span><h2>訂房須知</h2></div>
-        <p>先把規則講清楚，大家都住得開心。有任何問題歡迎直接來電。</p>
-      </div>
-      <div class="rule-grid">
-        <div class="card">
-          <h3>入住與退房</h3>
-          <div class="times">
-            <div><span>入住</span><b>16:00</b></div>
-            <div><span>退房</span><b>11:00</b></div>
-          </div>
-          <ul class="list">
-            <li>延遲退房每 30 分鐘加收 100 元。</li>
-            <li>不供應早餐；步行 5 分鐘內有多家知名早餐店，另備早餐外送點單。</li>
-            <li>付款方式：國民旅遊卡、信用卡、銀聯卡、銀行匯款。</li>
-            <li>訂房需付定金，請於 24 小時內完成匯款，匯款帳號於訂房確認時提供。</li>
-          </ul>
-        </div>
-        <div class="card">
-          <h3>取消與退款</h3>
-          <div class="tbl">
-            <table>
-              <thead><tr><th>住宿日前取消</th><th style="text-align:right">退還定金</th></tr></thead>
-              <tbody>
-                <tr><td>14 天（含）以前</td><td><span class="bar" style="width:60px"></span>100%</td></tr>
-                <tr><td>10–13 天</td><td><span class="bar" style="width:42px"></span>70%</td></tr>
-                <tr><td>7–9 天</td><td><span class="bar" style="width:30px"></span>50%</td></tr>
-                <tr><td>4–6 天</td><td><span class="bar" style="width:24px"></span>40%</td></tr>
-                <tr><td>2–3 天</td><td><span class="bar" style="width:18px"></span>30%</td></tr>
-                <tr><td>1 天</td><td><span class="bar" style="width:12px"></span>20%</td></tr>
-                <tr><td>當日或未到</td><td>0%</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p class="fine" style="margin-top:12px">入住當天若臺東縣政府宣布停止上班上課，定金全額退還。</p>
-        </div>
-        <div class="card full">
-          <h3>館內規定</h3>
-          <ul class="nos">
-            <li>全館室內（含衛浴）禁菸</li><li>不接待訪客</li><li>禁止攜帶寵物</li><li>禁止嚼食檳榔</li><li>夜間請輕聲細語</li>
-          </ul>
-          <p class="fine">未經同意留宿訪客，須加收一晚房價。貴重物品請自行保管。</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="location" class="sec">
-    <div class="wrap">
-      <div class="head">
-        <div><span class="eyebrow">Location</span><h2>台東市區，出門就是好吃好玩</h2></div>
-      </div>
-      <div class="loc">
-        <div class="addr-card">
-          <div>
-            <span style="font-size:13px;color:var(--ink-soft)">地址</span>
-            <p class="addr">臺東縣臺東市<br>更生路 552 巷 53 號</p>
-          </div>
-          <div class="dir">
-            <div><b>北上（往花東縱谷方向）</b>更生路於四維路口右轉慢車道，過第一個紅綠燈後第一個巷口右轉，約 20 公尺即達。</div>
-            <div><b>南下（往台東市區方向）</b>更生路於四維路口左轉慢車道，過第一個紅綠燈後第一個巷口右轉，約 20 公尺即達。</div>
-          </div>
-          <div><a class="btn btn-pink" href="https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E6%9D%B1%E7%90%AA%E7%90%AA%E8%A6%AA%E5%AD%90%E6%B0%91%E5%AE%BF" target="_blank" rel="noopener">Google 地圖導航</a></div>
-        </div>
-        <ul class="near" aria-label="周邊景點">
-          <li>鐵花村音樂聚落<span>台東鐵道藝術村</span></li>
-          <li>台東森林公園<span>琵琶湖・黑森林</span></li>
-          <li>台東海濱公園<span>國際地標</span></li>
-          <li>鯉魚山公園<span>市區登高看夜景</span></li>
-          <li>國立臺灣史前文化博物館<span>親子必訪</span></li>
-          <li>臺東美術館<span>藝文散步</span></li>
-          <li>台東糖廠<span>文創園區</span></li>
-          <li>水果街夜市<span>在地小吃</span></li>
-          <li>秀泰廣場・影城<span>雨天備案</span></li>
-          <li>山海鐵馬道<span>親子單車</span></li>
-          <li>鹿野高台<span>熱氣球嘉年華</span></li>
-          <li>綠島<span>跳島一日遊</span></li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section id="faq" class="sec" style="padding-top:0">
-    <div class="wrap">
-      <div class="head"><div><span class="eyebrow">FAQ</span><h2>常見問題</h2></div></div>
-      <div class="faq">
-        <details open><summary>可以包棟嗎？最多住幾個人？</summary><p>可以。全館三間四人親子房，包棟最多 12 人，適合兩三個家庭一起出遊，遊戲區與點心吧就是你們專屬的。包棟價格請來電洽詢。</p></details>
-        <details><summary>遊戲區、電動車、點心要另外付費嗎？</summary><p>不用。遊戲區、電動偉士牌小車、24 小時點心吧、洗衣烘衣、停車，房客通通免費使用。</p></details>
-        <details><summary>寶寶很小，需要自己帶什麼？</summary><p>消毒鍋、澡盆、尿布台、兒童餐具、施巴嬰幼兒沐浴組民宿都有，嬰兒床可預約。只要帶寶寶習慣的奶粉、副食品、尿布與換洗衣物就好。</p></details>
-        <details><summary>有早餐嗎？</summary><p>不供應早餐。民宿步行 5 分鐘內就有多家知名早餐店，也有多家早餐外送點單可以參考。</p></details>
-        <details><summary>可以提早到或放行李嗎？</summary><p>提供行李寄放服務，入住時間為下午 4 點，抵達前請先來電告知。</p></details>
-        <details><summary>要怎麼訂房？</summary><p>請來電、加 LINE 或私訊 Facebook 粉絲專頁，告訴我們入住日期與大人、小孩人數（含年齡），確認空房後匯定金即完成訂房。</p></details>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="contact">
-    <div class="wrap">
-      <div>
-        <span class="eyebrow">Book Now</span>
-        <h2>寒暑假、連假很快就滿，<br>早點問最安心</h2>
-        <p>服務時間每天 10:00–22:00。告訴我們日期與大小朋友人數，馬上幫你查空房。</p>
-      </div>
-      <div class="ways">
-        <a class="way" href="tel:+886988678767"><div><span>訂房專線</span><b>0988-678-767</b></div><i style="background:var(--pink);color:var(--ink)">撥打電話</i></a>
-        <a class="way" href="https://line.me/ti/p/~0988678767" target="_blank" rel="noopener"><div><span>LINE ID</span><b>0988678767</b></div><i style="background:#06C755;color:#fff">加 LINE</i></a>
-        <a class="way" href="https://www.facebook.com/kikikid53/" target="_blank" rel="noopener"><div><span>Facebook 粉絲專頁</span><b>kikikid53</b></div><i style="background:var(--sky);color:var(--ink)">私訊粉專</i></a>
-      </div>
-    </div>
-  </section>
-</main>
-
-<footer>
-  <div class="wrap">
-    <span>© 台東琪琪親子民宿 · 臺東縣民宿1039號 · 臺東市更生路552巷53號 · 0988-678-767</span>
-    <span>最好的，給最愛的</span>
-  </div>
-</footer>
-
-<div class="mbar">
-  <a class="btn btn-soft" href="https://line.me/ti/p/~0988678767" target="_blank" rel="noopener">LINE 詢問</a>
-  <a class="btn btn-pink" href="tel:+886988678767">電話訂房</a>
-</div>
-
+<script>document.write(new TextDecoder().decode(Uint8Array.from(atob("CjxkaXYgY2xhc3M9ImRlbW8tYmFyIj48Yj7ntrLnq5nmj5DmoYjlsZXnpLrniYg8L2I+44CA5pys57ay56uZ55Sx5Lmd6Jmf56eR5oqA5bel5L2c5a6kIE5JTlRIIExBQiDoo73kvZzvvIzlg4Xkvpvlj7DmnbHnkKrnkKropqrlrZDmsJHlrr/oqZXkvLDlj4PogIPvvJvmnKrntpPmm7jpnaLmjojmrIrvvIznpoHmraLopIfoo73jgIHovYnovInjgIHkuIvovInmiJbmraPlvI/kuIrnt5rkvb/nlKjjgII8L2Rpdj4KCjxoZWFkZXIgY2xhc3M9InRvcCI+CiAgPGRpdiBjbGFzcz0id3JhcCI+CiAgICA8YSBjbGFzcz0iYnJhbmQiIGhyZWY9IiN0b3AiIGFyaWEtbGFiZWw9IuWPsOadseeQqueQquimquWtkOawkeWuvyDpppbpoIEiPgogICAgICA8c3ZnIHdpZHRoPSI0MiIgaGVpZ2h0PSI0MiIgdmlld0JveD0iMCAwIDY0IDY0IiBhcmlhLWhpZGRlbj0idHJ1ZSI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTgiIGZpbGw9IiNGNDhGQjEiLz48cGF0aCBkPSJNMzIgMTJsNS45IDEyIDEzLjEgMS45LTkuNSA5LjMgMi4yIDEzTDMyIDQybC0xMS43IDYuMiAyLjItMTMtOS41LTkuMyAxMy4xLTEuOXoiIGZpbGw9IiNGRkQ5NUEiLz48L3N2Zz4KICAgICAgPHNwYW4+PHN0cm9uZz7nkKrnkKropqrlrZDmsJHlrr88L3N0cm9uZz48c21hbGw+S0lLSSBLSURTIDUzIMK3IFRBSVRVTkc8L3NtYWxsPjwvc3Bhbj4KICAgIDwvYT4KICAgIDxuYXYgYXJpYS1sYWJlbD0i5Li76YG45ZauIj48dWwgY2xhc3M9Im1lbnUiPgogICAgICA8bGk+PGEgaHJlZj0iI3BsYXkiPumBiuaIsuWNgDwvYT48L2xpPgogICAgICA8bGk+PGEgaHJlZj0iI3Jvb21zIj7miL/lnovlg7nmoLw8L2E+PC9saT4KICAgICAgPGxpPjxhIGhyZWY9IiNwYXJlbnRzIj7lrLDlubzlhZLlgpnlk4E8L2E+PC9saT4KICAgICAgPGxpPjxhIGhyZWY9IiNydWxlcyI+6KiC5oi/6aCI55+lPC9hPjwvbGk+CiAgICAgIDxsaT48YSBocmVmPSIjbG9jYXRpb24iPuS6pOmAmjwvYT48L2xpPgogICAgICA8bGk+PGEgaHJlZj0iI2ZhcSI+5ZWP562UPC9hPjwvbGk+CiAgICA8L3VsPjwvbmF2PgogICAgPGEgY2xhc3M9ImJ0biBidG4tcGluayIgaHJlZj0iI2NvbnRhY3QiPueri+WNs+ioguaIvzwvYT4KICA8L2Rpdj4KICA8ZGl2IGNsYXNzPSJidW50aW5nIiBhcmlhLWhpZGRlbj0idHJ1ZSI+PC9kaXY+CjwvaGVhZGVyPgoKPG1haW4gaWQ9InRvcCI+CiAgPHNlY3Rpb24gY2xhc3M9Imhlcm8iPgogICAgPGRpdiBjbGFzcz0id3JhcCI+CiAgICAgIDxkaXY+CiAgICAgICAgPHNwYW4gY2xhc3M9InNpbmNlIj48Yj4yMDE1PC9iPuWPsOadseW4guWNgCDCtyDlkIjms5XljIXmo5/opqrlrZDmsJHlrr88L3NwYW4+CiAgICAgICAgPGgxPuacgOWlveeahO+8jDxicj48c3BhbiBjbGFzcz0ibG92ZSI+57Wm5pyA5oSb55qEPC9zcGFuPjwvaDE+CiAgICAgICAgPHAgY2xhc3M9ImxlYWQiPuW5vOaVmeiDjOaZr+eahOS4u+S6uu+8jOaKiuaVtOajn+aIv+WtkOiuiuaIkOWtqeWtkOeahOmBiuaoguWcku+8muWGt+awo+mBiuaIsuWNgOOAgembu+WLleWBieWjq+eJjOWwj+i7iuOAgeW4s+evt+W6iuiIh+WFrOS4u+mmrOi7iuW6iuOAguWwv+W4g+OAgea+oeebhuOAgea2iOavkumNi+mDveW5q+S9oOa6luWCmeWlve+8jOeIuOWqveWPquimgeW4tuiRl+WtqeWtkOS+huOAgjwvcD4KICAgICAgICA8ZGl2IGNsYXNzPSJjdGFzIj4KICAgICAgICAgIDxhIGNsYXNzPSJidG4gYnRuLXBpbmsiIGhyZWY9IiNjb250YWN0Ij7mn6XoqaLnqbrmiL88L2E+CiAgICAgICAgICA8YSBjbGFzcz0iYnRuIGJ0bi1zb2Z0IiBocmVmPSIjcm9vbXMiPueci+aIv+Wei+iIh+WDueagvDwvYT4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9InN0YWNrIj4KICAgICAgICA8ZGl2IGNsYXNzPSJtYWluIj48aW1nIHNyYz0iaHR0cHM6Ly90dzUxNjguY29tLnR3L3Bob3Rvcy9ob3RlbHNpdGUvaG90ZWxwaWMvMjIxMDEyMDc2MzA3Mzgud2VicCIgYWx0PSLnkKrnkKropqrlrZDmsJHlrr/lrqTlhaflhrfmsKPpgYrmiLLljYDvvIznsonol43mi7zmjqXlnLDlooroiIfmupzmu5Hmoq/jgIHnjqnlhbfou4oiIHdpZHRoPSIxNDc3IiBoZWlnaHQ9IjExMDgiIGZldGNocHJpb3JpdHk9ImhpZ2giIHJlZmVycmVycG9saWN5PSJuby1yZWZlcnJlciI+PC9kaXY+CiAgICAgICAgPGZpZ3VyZSBjbGFzcz0icG9sYXJvaWQiIHN0eWxlPSJtYXJnaW46MCI+PGltZyBzcmM9Imh0dHBzOi8vdHc1MTY4LmNvbS50dy9waG90b3MvdXBsb2Fkcy9oNTUvdXAtMTc4ODk0MzE0NDU3NS03OWM4YzEud2VicCIgYWx0PSLkuIDmlbTmjpLlhZLnq6Xpm7vli5XlgYnlo6vniYzmqZ/ou4oiIGxvYWRpbmc9ImxhenkiIHJlZmVycmVycG9saWN5PSJuby1yZWZlcnJlciI+PHNwYW4+5YGJ5aOr54mM5bCP6LuK6ZqK77yM5YWN6LK76aiO77yBPC9zcGFuPjwvZmlndXJlPgogICAgICAgIDxkaXYgY2xhc3M9InN0aWNrZXIiPjxzcGFuPjxiPjI0aDwvYj7pu57lv4PlkKc8YnI+54Sh6ZmQ5L6b5oeJPC9zcGFuPjwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0id3JhcCIgc3R5bGU9Im1hcmdpbi10b3A6NDRweCI+CiAgICAgIDxkaXYgY2xhc3M9ImZhY3RzIj4KICAgICAgICA8ZGl2PjxiPjM8L2I+PHNwYW4+6ZaT5Zub5Lq66Kaq5a2Q5oi/PC9zcGFuPjwvZGl2PgogICAgICAgIDxkaXY+PGI+MTI8L2I+PHNwYW4+5Lq65YyF5qOf5pyA5aSa5YWl5L2PPC9zcGFuPjwvZGl2PgogICAgICAgIDxkaXY+PGI+MeaIvzHkvY08L2I+PHNwYW4+5YWN6LK756eB5Lq65YGc6LuKPC9zcGFuPjwvZGl2PgogICAgICAgIDxkaXY+PGI+MOWFgzwvYj48c3Bhbj7mtJfooaPjg7vng5jooaPjg7vmmb7mm6w8L3NwYW4+PC9kaXY+CiAgICAgICAgPGRpdj48Yj4xMDM5PC9iPjxzcGFuPuiHuuadsee4o+WQiOazleawkeWuvzwvc3Bhbj48L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICA8L3NlY3Rpb24+CgogIDxkaXYgY2xhc3M9Im1hdCIgYXJpYS1oaWRkZW49InRydWUiPjwvZGl2PgoKICA8c2VjdGlvbiBpZD0icGxheSIgY2xhc3M9InNlYyBwbGF5Ij4KICAgIDxkaXYgY2xhc3M9IndyYXAiPgogICAgICA8ZGl2IGNsYXNzPSJoZWFkIj4KICAgICAgICA8ZGl2PjxzcGFuIGNsYXNzPSJleWVicm93Ij5QbGF5IFJvb208L3NwYW4+PGgyPuS4gOaVtOWxpOeahOWGt+awo+mBiuaIsuWNgDwvaDI+PC9kaXY+CiAgICAgICAgPHA+5b2p6Jm554mG44CB5pif5pif54eI44CB57KJ6JeN5ou85o6l5Zyw5aKK77yM6YCy5Y+j5q2Q576O6YGK5YW35Yqg5LiK5pW05o6S6Zu75YuV5bCP6LuK44CC5Y+w5p2x55qE5aSn5aSq6Zm95oiW5Y2I5b6M6Zu36Zmj6Zuo77yM6YO95pOL5LiN5L2P5a2p5a2Q5pS+6Zu744CCPC9wPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0icGxheS1ncmlkIj4KICAgICAgICA8ZGl2IGNsYXNzPSJwbGF5LXBob3RvcyI+CiAgICAgICAgICA8aW1nIHNyYz0iaHR0cHM6Ly90dzUxNjguY29tLnR3L3Bob3Rvcy9ob3RlbHNpdGUvaG90ZWxwaWMvMjIxMDEyMDc2MzA3NDEud2VicCIgYWx0PSLpgYrmiLLljYDlvanombnlo4HnlavjgIHlhZLnq6Xou4roiIfmjInmkanmpIUiIGxvYWRpbmc9ImxhenkiIHJlZmVycmVycG9saWN5PSJuby1yZWZlcnJlciI+CiAgICAgICAgICA8aW1nIHNyYz0iaHR0cHM6Ly90dzUxNjguY29tLnR3L3Bob3Rvcy9ob3RlbHNpdGUvaG90ZWxwaWMvMTYxMTQxMzBKZmF0ZXJtaW5pLndlYnAiIGFsdD0i5a2p5a2Q5Zyo6YGK5oiy5Y2A6aiO546p5YW36LuKIiBsb2FkaW5nPSJsYXp5IiByZWZlcnJlcnBvbGljeT0ibm8tcmVmZXJyZXIiPgogICAgICAgICAgPGltZyBzcmM9Imh0dHBzOi8vdHc1MTY4LmNvbS50dy9waG90b3MvdXBsb2Fkcy9oNTUvdXAtMTc4ODk0MzE0MjQzMS0wY2FmMDYud2VicCIgYWx0PSLpgYrmiLLljYDnjqnlhbfoiIfmupzmu5Hmoq8iIGxvYWRpbmc9ImxhenkiIHJlZmVycmVycG9saWN5PSJuby1yZWZlcnJlciI+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0icGxheS1jYXJkIj4KICAgICAgICAgIDxoMyBzdHlsZT0iZm9udC1zaXplOjIycHgiPumBiuaIsuWNgOmWi+aUvuaZgumWkzwvaDM+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJob3VycyI+CiAgICAgICAgICAgIDxkaXY+PHNwYW4+5YWl5L2P55W25aSpPC9zcGFuPjxiPjE2OjAw4oCTMjE6MDA8L2I+PC9kaXY+CiAgICAgICAgICAgIDxkaXY+PHNwYW4+6ZqU5aSp5pep5LiKPC9zcGFuPjxiPjA4OjAw4oCTMTE6MDA8L2I+PC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxoMyBzdHlsZT0iZm9udC1zaXplOjE4cHgiPueOqeS7gOm6vO+8nzwvaDM+CiAgICAgICAgICA8dWwgY2xhc3M9InRveXMiPgogICAgICAgICAgICA8bGk+6Zu75YuV5YGJ5aOr54mM5bCP6LuKPC9saT48bGk+5rqc5ruR5qKvPC9saT48bGk+6Z6m6Z+GPC9saT48bGk+5pCW5pCW5pyo6aasPC9saT48bGk+5bel56iL6LuK44O75omt5omt6LuKPC9saT48bGk+56mN5pyoPC9saT48bGk+57GD55CD5qGGPC9saT48bGk+57mq5pysPC9saT48bGk+6IWz6LiP6LuKPC9saT4KICAgICAgICAgIDwvdWw+CiAgICAgICAgICA8cCBzdHlsZT0iY29sb3I6dmFyKC0taW5rLXNvZnQpO2ZvbnQtc2l6ZToxNXB4Ij7lpKfkurrkuZ/mnIkgRlVKSSDmjInmkanmpIXlj6/ku6XlnZDvvIzlranlrZDnjqnjgIHniLjlqr3llpjlj6PmsKPjgILpgYrmiLLljYDlsLHlnKjpu57lv4PlkKfml4HpgorvvIzppJPkuobpmqjmiYvmi7/jgII8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9zZWN0aW9uPgoKICA8c2VjdGlvbiBpZD0icm9vbXMiIGNsYXNzPSJzZWMiPgogICAgPGRpdiBjbGFzcz0id3JhcCI+CiAgICAgIDxkaXYgY2xhc3M9ImhlYWQiPgogICAgICAgIDxkaXY+PHNwYW4gY2xhc3M9ImV5ZWJyb3ciPlJvb21zPC9zcGFuPjxoMj7kuInplpPkuLvpoYzopqrlrZDmiL88L2gyPjwvZGl2PgogICAgICAgIDxwPuavj+mWk+mDveaYr+S4gOWkp+W6iu+8i+S4gOW6iu+8iOWKoOWkp+mbmeS6uu+8i+aomea6lumbmeS6uu+8ie+8jOWFqeWkp+WFqeWwj+WJm+WJm+Wlve+8m+aIv+ijoeWwseaciea6nOa7keair+aIluW4s+evt++8jOWtqeWtkOS4gOmAsumWgOWwseS4jeaDs+WHuuS+huOAgjwvcD4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9InJvb21zIj4KICAgICAgICA8YXJ0aWNsZSBjbGFzcz0icm9vbSI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJnYWxsZXJ5Ij4KICAgICAgICAgICAgPGltZyBzcmM9Imh0dHBzOi8vdHc1MTY4LmNvbS50dy9waG90b3MvaG90ZWxzaXRlL3Jvb20vMjMwMzU0MDkyLndlYnAiIGFsdD0iMuaok+mZveWPsOaIvyDnsonntIXlhazkuLvppqzou4rluooiIGxvYWRpbmc9ImxhenkiIHJlZmVycmVycG9saWN5PSJuby1yZWZlcnJlciI+CiAgICAgICAgICAgIDxpbWcgc3JjPSJodHRwczovL3R3NTE2OC5jb20udHcvcGhvdG9zL2hvdGVsc2l0ZS9yb29tMi8yMzEwMDUwMzgud2VicCIgYWx0PSIy5qiT6Zm95Y+w5oi/IOmbmeW6iuiIh+a6nOa7keairyIgbG9hZGluZz0ibGF6eSIgcmVmZXJyZXJwb2xpY3k9Im5vLXJlZmVycmVyIj4KICAgICAgICAgICAgPGltZyBzcmM9Imh0dHBzOi8vdHc1MTY4LmNvbS50dy9waG90b3MvaG90ZWxzaXRlL3Jvb20yLzIzMTAwNTAzOS53ZWJwIiBhbHQ9IjLmqJPpmb3lj7DmiL8g5oi/5YWn5LiA6KeSIiBsb2FkaW5nPSJsYXp5IiByZWZlcnJlcnBvbGljeT0ibm8tcmVmZXJyZXIiPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJpbmZvIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImZsb29yIiBzdHlsZT0iYmFja2dyb3VuZDp2YXIoLS1waW5rLXRpbnQpO2NvbG9yOnZhcigtLXBpbmstZGVlcCkiPjJGIMK3IOmZveWPsOaIvzwvc3Bhbj4KICAgICAgICAgICAgPGgzPueyiee0heWFrOS4u+mmrOi7iuaIvzwvaDM+CiAgICAgICAgICAgIDxwIGNsYXNzPSJkZXNjIj7lhazkuLvppqzou4rluorjgIHnsonntIXmupzmu5Hmoq/oiIfnmoflhqDlo4HosrzvvIzlsI/lhazkuLvnmoTlpKLlubvln47loKHjgILpmYTnjajnq4vpmb3lj7DvvIzmtJflpb3nmoTooaPmnI3nm7TmjqXmmb7jgII8L3A+CiAgICAgICAgICAgIDx1bCBjbGFzcz0iY2hpcHMiPjxsaT40IOS6uuaIvzwvbGk+PGxpPuWFrOS4u+mmrOi7iuW6ijwvbGk+PGxpPuaIv+WFp+a6nOa7keairzwvbGk+PGxpPueNqOeri+mZveWPsDwvbGk+PC91bD4KICAgICAgICAgICAgPGRpdiBjbGFzcz0icHJpY2UiPjxkaXY+PHNwYW4+5bmz5pelPC9zcGFuPjxiPjMsNTAwPC9iPiA8c21hbGw+6LW3PC9zbWFsbD48L2Rpdj48ZGl2PjxzcGFuPuWBh+aXpTwvc3Bhbj48Yj4zLDgwMDwvYj4gPHNtYWxsPui1tzwvc21hbGw+PC9kaXY+PGRpdj48c3Bhbj7lrprlg7k8L3NwYW4+PGI+NSwwMDA8L2I+PC9kaXY+PC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2FydGljbGU+CiAgICAgICAgPGFydGljbGUgY2xhc3M9InJvb20iPgogICAgICAgICAgPGRpdiBjbGFzcz0iZ2FsbGVyeSI+CiAgICAgICAgICAgIDxpbWcgc3JjPSJodHRwczovL3R3NTE2OC5jb20udHcvcGhvdG9zL2hvdGVsc2l0ZS9yb29tMi8yNDAyMDQyODcyMjU3Ny53ZWJwIiBhbHQ9IjPmqJPnqpfmiLbmiL8g6JeN6Imy5biz56+35bqK6IiH5rG96LuK5Zyw5aKKIiBsb2FkaW5nPSJsYXp5IiByZWZlcnJlcnBvbGljeT0ibm8tcmVmZXJyZXIiPgogICAgICAgICAgICA8aW1nIHNyYz0iaHR0cHM6Ly90dzUxNjguY29tLnR3L3Bob3Rvcy9ob3RlbHNpdGUvcm9vbS8yMjEyMDQyMzAxR0tHWURaUktZMlhKVEFNMDVXM1BBSFJGLndlYnAiIGFsdD0iM+aok+eql+aItuaIvyDluLPnr7foiIfmupzmu5Hmoq8iIGxvYWRpbmc9ImxhenkiIHJlZmVycmVycG9saWN5PSJuby1yZWZlcnJlciI+CiAgICAgICAgICAgIDxpbWcgc3JjPSJodHRwczovL3R3NTE2OC5jb20udHcvcGhvdG9zL2hvdGVsc2l0ZS9yb29tMi8yMzEwMzY1MjE2OTc0NzIxMzE4OTMud2VicCIgYWx0PSIz5qiT56qX5oi25oi/IOmbu+imluiIh+abuOahjCIgbG9hZGluZz0ibGF6eSIgcmVmZXJyZXJwb2xpY3k9Im5vLXJlZmVycmVyIj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0iaW5mbyI+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJmbG9vciIgc3R5bGU9ImJhY2tncm91bmQ6dmFyKC0tc2t5LXRpbnQpO2NvbG9yOiMyRjc4QUUiPjNGIMK3IOeql+aItuaIvzwvc3Bhbj4KICAgICAgICAgICAgPGgzPuiXjeiJsuW4s+evt+Wwj+mOruaIvzwvaDM+CiAgICAgICAgICAgIDxwIGNsYXNzPSJkZXNjIj7luLPnr7fluormkK3phY3ln47luILpgZPot6/lnLDloorvvIzlsI/ou4rou4rlnKjmiL/plpPoo6HkuZ/og73kuIrot6/vvJvmjqHlhYnmmI7kuq7nmoTlpKfnqpfmiLbjgII8L3A+CiAgICAgICAgICAgIDx1bCBjbGFzcz0iY2hpcHMiPjxsaT40IOS6uuaIvzwvbGk+PGxpPuW4s+evt+W6ijwvbGk+PGxpPuW4s+evt+a6nOa7keairzwvbGk+PGxpPumBk+i3r+mBiuaIsuWcsOWiijwvbGk+PC91bD4KICAgICAgICAgICAgPGRpdiBjbGFzcz0icHJpY2UiPjxkaXY+PHNwYW4+5bmz5pelPC9zcGFuPjxiPjMsNTAwPC9iPiA8c21hbGw+6LW3PC9zbWFsbD48L2Rpdj48ZGl2PjxzcGFuPuWBh+aXpTwvc3Bhbj48Yj4zLDgwMDwvYj4gPHNtYWxsPui1tzwvc21hbGw+PC9kaXY+PGRpdj48c3Bhbj7lrprlg7k8L3NwYW4+PGI+NSwwMDA8L2I+PC9kaXY+PC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2FydGljbGU+CiAgICAgICAgPGFydGljbGUgY2xhc3M9InJvb20iPgogICAgICAgICAgPGRpdiBjbGFzcz0iZ2FsbGVyeSI+CiAgICAgICAgICAgIDxpbWcgc3JjPSJodHRwczovL3R3NTE2OC5jb20udHcvcGhvdG9zL2hvdGVsc2l0ZS9yb29tMi8yMzEwNTAzMTE2OTc0NzE5Mjk0NzAud2VicCIgYWx0PSIz5qiT6Zm95Y+w5oi/IOW9qeaXl+OAgeW4s+evt+iIh+aMieaRqeakhSIgbG9hZGluZz0ibGF6eSIgcmVmZXJyZXJwb2xpY3k9Im5vLXJlZmVycmVyIj4KICAgICAgICAgICAgPGltZyBzcmM9Imh0dHBzOi8vdHc1MTY4LmNvbS50dy9waG90b3MvaG90ZWxzaXRlL3Jvb20yLzIyMTE1OTQ1MjAyMjExMjNfMTA1OTAyLndlYnAiIGFsdD0iM+aok+mZveWPsOaIvyDpnLLnh5/luLPnr7fluoroiIfnjqnlhbfou4oiIGxvYWRpbmc9ImxhenkiIHJlZmVycmVycG9saWN5PSJuby1yZWZlcnJlciI+CiAgICAgICAgICAgIDxpbWcgc3JjPSJodHRwczovL3R3NTE2OC5jb20udHcvcGhvdG9zL2hvdGVsc2l0ZS9yb29tMi8yNDAyMDI0NzQyMTExNDk1NF84NDQ1MTk4MjQzNTE1MjNfMTEyMzY5MTEzMDc4OTE0OTU5N19uLndlYnAiIGFsdD0iM+aok+mZveWPsOaIvyBEeXNvbiDnqbrmsKPmuIXmt6jmqZ/oiIfmjInmkanmpIUiIGxvYWRpbmc9ImxhenkiIHJlZmVycmVycG9saWN5PSJuby1yZWZlcnJlciI+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImluZm8iPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0iZmxvb3IiIHN0eWxlPSJiYWNrZ3JvdW5kOnZhcigtLW1pbnQtdGludCk7Y29sb3I6IzJBOEE3NiI+M0Ygwrcg6Zm95Y+w5oi/PC9zcGFuPgogICAgICAgICAgICA8aDM+6Zyy54ef5rS+5bCN5oyJ5pGp5oi/PC9oMz4KICAgICAgICAgICAgPHAgY2xhc3M9ImRlc2MiPuW9qeiJsua0vuWwjeaXl+OAgemcsueHn+W4s+evt+W6iu+8jOaIv+WFp+mChOacieaMieaRqeakheiIhyBEeXNvbiDkuInlkIjkuIDnqbrmsKPmuIXmt6jmqZ/vvIzmmK/niLjlqr3mnIDmhJvnmoTkuIDplpPjgII8L3A+CiAgICAgICAgICAgIDx1bCBjbGFzcz0iY2hpcHMiPjxsaT40IOS6uuaIvzwvbGk+PGxpPumcsueHn+W4s+evt+W6ijwvbGk+PGxpPuaIv+WFp+aMieaRqeakhTwvbGk+PGxpPkR5c29uIOa4hea3qOapnzwvbGk+PGxpPueNqOeri+mZveWPsDwvbGk+PC91bD4KICAgICAgICAgICAgPGRpdiBjbGFzcz0icHJpY2UiPjxkaXY+PHNwYW4+5bmz5pelPC9zcGFuPjxiPjMsNTAwPC9iPiA8c21hbGw+6LW3PC9zbWFsbD48L2Rpdj48ZGl2PjxzcGFuPuWBh+aXpTwvc3Bhbj48Yj4zLDgwMDwvYj4gPHNtYWxsPui1tzwvc21hbGw+PC9kaXY+PGRpdj48c3Bhbj7lrprlg7k8L3NwYW4+PGI+NSwwMDA8L2I+PC9kaXY+PC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2FydGljbGU+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJhbGxyb29tcyI+CiAgICAgICAgPGgzPuavj+mWk+aIv+mDveaciTwvaDM+CiAgICAgICAgPHVsPgogICAgICAgICAgPGxpPjY1IOWQi+iBr+e2sumbu+imluODuzE2MCsg6aC76YGTPC9saT48bGk+SENHIOaZuuiDveWFjeayu+mmrOahtuW6pzwvbGk+PGxpPkhJVEFDSEkg5Ya35pqW56m66Kq/PC9saT48bGk+RHlzb24g5ZC56aKo5qmfPC9saT48bGk+5Lm+5r+V5YiG6Zui6KGb5rW0PC9saT48bGk+5b635ZyL5Y6f6KOd5rKQ5rW05YKZ5ZOBPC9saT48bGk+5Yaw566xPC9saT48bGk+5YWN6LK7IFdpRmk8L2xpPgogICAgICAgIDwvdWw+CiAgICAgIDwvZGl2PgogICAgICA8cCBjbGFzcz0iZmluZSI+77yK5YO55qC854K65paw5Y+w5bmj77yP5q+P5oi/5q+P5pma77yM5L6d5pel5pyf5rWu5YuV77yM5Lul6KiC5oi/56K66KqN54K65rqW44CC5YyF5qOf5YO55qC844CB6L6y5puG5pil56+A5oi/5YO56KuL5L6G6Zu75rS96Kmi44CC5Yqg5bqKIDIwMCDlhYPotbfvvJvlrLDlhZLluorlhY3osrvvvIzoq4vmlrzoqILmiL/mmYLpoJDntITjgILmiL/lnovmmrHnqLHngrrntrLnq5nmmqvlrprjgII8L3A+CiAgICA8L2Rpdj4KICA8L3NlY3Rpb24+CgogIDxkaXYgY2xhc3M9Im1hdCIgYXJpYS1oaWRkZW49InRydWUiPjwvZGl2PgoKICA8c2VjdGlvbiBpZD0icGFyZW50cyIgY2xhc3M9InNlYyI+CiAgICA8ZGl2IGNsYXNzPSJ3cmFwIHBhcmVudHMiPgogICAgICA8ZGl2IGNsYXNzPSJkdW8iPgogICAgICAgIDxpbWcgc3JjPSJodHRwczovL3R3NTE2OC5jb20udHcvcGhvdG9zL2hvdGVsc2l0ZS9ob3RlbHBpYy9JTUdfNzUwMy53ZWJwIiBhbHQ9IuWFkuerpea+oeebhuiIh+a0l+a+oeeOqeWFtyIgbG9hZGluZz0ibGF6eSIgcmVmZXJyZXJwb2xpY3k9Im5vLXJlZmVycmVyIj4KICAgICAgICA8aW1nIHNyYz0iaHR0cHM6Ly90dzUxNjguY29tLnR3L3Bob3Rvcy9ob3RlbHNpdGUvaG90ZWxwaWMvMTkwNjExMDMwNjA0LTIud2VicCIgYWx0PSLlpbbnk7bmtojmr5LpjYvoiIflpbbnk7bmuIXmvZTnlKjlk4EiIGxvYWRpbmc9ImxhenkiIHJlZmVycmVycG9saWN5PSJuby1yZWZlcnJlciI+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2PgogICAgICAgIDxzcGFuIGNsYXNzPSJleWVicm93Ij5CYWJ5IFJlYWR5PC9zcGFuPgogICAgICAgIDxoMiBzdHlsZT0iZm9udC1zaXplOmNsYW1wKDMwcHgsNHZ3LDQ0cHgpO2ZvbnQtd2VpZ2h0OjgwMCI+6KGM5p2O5bCR5LiA5Y2K77yMPGJyPjDigJMzIOatsuWvtuWvtuS5n+WuieW/gzwvaDI+CiAgICAgICAgPHAgc3R5bGU9Im1hcmdpbi10b3A6MTRweDtjb2xvcjp2YXIoLS1pbmstc29mdCkiPuS4u+S6uuacieW5vOaVmeiDjOaZr++8jOefpemBk+W4tuWvtuWvtuWHuumWgOacgOm6u+eFqeeahOaYr+S7gOm6vOOAgumAmeS6m+eQqueQqumDvea6luWCmeWlveS6hu+8mjwvcD4KICAgICAgICA8dWwgY2xhc3M9ImNoZWNrIj4KICAgICAgICAgIDxsaT7lpbbnk7bmtojmr5LpjYs8L2xpPjxsaT7lhZLnq6XmvqHnm4bjg7vmtJfmvqHnjqnlhbc8L2xpPgogICAgICAgICAgPGxpPuWwv+W4g+WPsDwvbGk+PGxpPuaWveW3tOWssOW5vOWFkuaXheihjOe1hDwvbGk+CiAgICAgICAgICA8bGk+5YWS56ul6aSQ5YW3PC9saT48bGk+6L+35L2g6Zu76Y2L44O7556s54ax5aO6PC9saT4KICAgICAgICAgIDxsaT7lrLDlhZLluorvvIjpnIDpoJDntITvvIk8L2xpPjxsaT7mqJPmoq/lronlhajmk4vmnb88L2xpPgogICAgICAgICAgPGxpPuewoeaYk+mGq+iXpeeuseODu+iAs+a6q+anjTwvbGk+PGxpPumjsuawtOapnzwvbGk+CiAgICAgICAgPC91bD4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICA8L3NlY3Rpb24+CgogIDxzZWN0aW9uIGNsYXNzPSJzZWMiIHN0eWxlPSJwYWRkaW5nLXRvcDowIj4KICAgIDxkaXYgY2xhc3M9IndyYXAiPgogICAgICA8ZGl2IGNsYXNzPSJoZWFkIj4KICAgICAgICA8ZGl2PjxzcGFuIGNsYXNzPSJleWVicm93Ij5GcmVlIGZvciBHdWVzdHM8L3NwYW4+PGgyPuaIv+WuouWwiOWxrO+8jOWFqOmDqOWFjeiyuzwvaDI+PC9kaXY+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJzcGFjZXMiPgogICAgICAgIDxhcnRpY2xlIGNsYXNzPSJzcGFjZSI+CiAgICAgICAgICA8aW1nIHNyYz0iaHR0cHM6Ly90dzUxNjguY29tLnR3L3Bob3Rvcy91cGxvYWRzL2g1NS91cC0xNzg4OTQzMTQ3NDUyLTUxOTk2My53ZWJwIiBhbHQ9IjI05bCP5pmC6Ieq5Yqp6bue5b+D5Y2A77yM6aSF5Lm+57OW5p6c6IiH6aOy5paZIiBsb2FkaW5nPSJsYXp5IiByZWZlcnJlcnBvbGljeT0ibm8tcmVmZXJyZXIiPgogICAgICAgICAgPGRpdj48aDM+MjQg5bCP5pmC6bue5b+D5ZCnPC9oMz48cD7ppIXkub7jgIHns5bmnpzjgIHpo7LmlpnjgIHnpKbms4nmsLTvvIzmiL/lrqLlsIjlsazjgIHlhafnlKjoh6rlj5bvvIzljYrlpJzogprlrZDppJPkuZ/kuI3mgJXjgII8L3A+PC9kaXY+CiAgICAgICAgPC9hcnRpY2xlPgogICAgICAgIDxhcnRpY2xlIGNsYXNzPSJzcGFjZSI+CiAgICAgICAgICA8aW1nIHNyYz0iaHR0cHM6Ly90dzUxNjguY29tLnR3L3Bob3Rvcy9ob3RlbHNpdGUvcm9vbS8yMjEyNTIyMzAxR0tHTTU3NzJRRDdUVDdYSDdFRUNWVDNILndlYnAiIGFsdD0i5YWs55So5rSX6KGj6ZaT77yM5rSX6KGj5qmf6IiH54OY6KGj6Kit5YKZIiBsb2FkaW5nPSJsYXp5IiByZWZlcnJlcnBvbGljeT0ibm8tcmVmZXJyZXIiPgogICAgICAgICAgPGRpdj48aDM+5YWN6LK75rSX6KGj6ZaTPC9oMz48cD7mtJfooaPjgIHng5jkub7jgIHmmb7mm6zoqK3lgpnnlKjlk4HpvYrlhajvvIzlpJrkvY/lub7mmZrkuZ/kuI3nlKjluLbkuIDlpKfnrrHooaPmnI3jgII8L3A+PC9kaXY+CiAgICAgICAgPC9hcnRpY2xlPgogICAgICAgIDxhcnRpY2xlIGNsYXNzPSJzcGFjZSI+CiAgICAgICAgICA8aW1nIHNyYz0iaHR0cHM6Ly90dzUxNjguY29tLnR3L3Bob3Rvcy9ob3RlbHNpdGUvcGxhbnQvMjUwNjM2MTY3MTcyMjlfMC53ZWJwIiBhbHQ9IuawkeWuv+engeS6uuWBnOi7iuWgtCIgbG9hZGluZz0ibGF6eSIgcmVmZXJyZXJwb2xpY3k9Im5vLXJlZmVycmVyIj4KICAgICAgICAgIDxkaXY+PGgzPuengeS6uuWBnOi7iuWgtDwvaDM+PHA+5q+PIDEg5oi/IDEg6LuK5L2N77yM5YWl5L2P5pel5LiL5Y2IIDQg6bue5Yiw6YCA5oi/5pel5LiK5Y2IIDExIOm7numDveiDveWBnO+8m+WPpuaPkOS+m+ihjOadjuWvhOaUvuOAgjwvcD48L2Rpdj4KICAgICAgICA8L2FydGljbGU+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9zZWN0aW9uPgoKICA8c2VjdGlvbiBpZD0icnVsZXMiIGNsYXNzPSJzZWMgcnVsZXMiPgogICAgPGRpdiBjbGFzcz0id3JhcCI+CiAgICAgIDxkaXYgY2xhc3M9ImhlYWQiPgogICAgICAgIDxkaXY+PHNwYW4gY2xhc3M9ImV5ZWJyb3ciPkdvb2QgdG8gS25vdzwvc3Bhbj48aDI+6KiC5oi/6aCI55+lPC9oMj48L2Rpdj4KICAgICAgICA8cD7lhYjmioropo/liYforJvmuIXmpZrvvIzlpKflrrbpg73kvY/lvpfplovlv4PjgILmnInku7vkvZXllY/poYzmraHov47nm7TmjqXkvobpm7vjgII8L3A+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJydWxlLWdyaWQiPgogICAgICAgIDxkaXYgY2xhc3M9ImNhcmQiPgogICAgICAgICAgPGgzPuWFpeS9j+iIh+mAgOaIvzwvaDM+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJ0aW1lcyI+CiAgICAgICAgICAgIDxkaXY+PHNwYW4+5YWl5L2PPC9zcGFuPjxiPjE2OjAwPC9iPjwvZGl2PgogICAgICAgICAgICA8ZGl2PjxzcGFuPumAgOaIvzwvc3Bhbj48Yj4xMTowMDwvYj48L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPHVsIGNsYXNzPSJsaXN0Ij4KICAgICAgICAgICAgPGxpPuW7tumBsumAgOaIv+avjyAzMCDliIbpkJjliqDmlLYgMTAwIOWFg+OAgjwvbGk+CiAgICAgICAgICAgIDxsaT7kuI3kvpvmh4nml6nppJDvvJvmraXooYwgNSDliIbpkJjlhafmnInlpJrlrrbnn6XlkI3ml6nppJDlupfvvIzlj6blgpnml6nppJDlpJbpgIHpu57llq7jgII8L2xpPgogICAgICAgICAgICA8bGk+5LuY5qy+5pa55byP77ya5ZyL5rCR5peF6YGK5Y2h44CB5L+h55So5Y2h44CB6YqA6IGv5Y2h44CB6YqA6KGM5Yyv5qy+44CCPC9saT4KICAgICAgICAgICAgPGxpPuioguaIv+mcgOS7mOWumumHke+8jOiri+aWvCAyNCDlsI/mmYLlhaflrozmiJDljK/mrL7vvIzljK/mrL7luLPomZ/mlrzoqILmiL/norroqo3mmYLmj5DkvpvjgII8L2xpPgogICAgICAgICAgPC91bD4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJjYXJkIj4KICAgICAgICAgIDxoMz7lj5bmtojoiIfpgIDmrL48L2gzPgogICAgICAgICAgPGRpdiBjbGFzcz0idGJsIj4KICAgICAgICAgICAgPHRhYmxlPgogICAgICAgICAgICAgIDx0aGVhZD48dHI+PHRoPuS9j+Wuv+aXpeWJjeWPlua2iDwvdGg+PHRoIHN0eWxlPSJ0ZXh0LWFsaWduOnJpZ2h0Ij7pgIDpgoTlrprph5E8L3RoPjwvdHI+PC90aGVhZD4KICAgICAgICAgICAgICA8dGJvZHk+CiAgICAgICAgICAgICAgICA8dHI+PHRkPjE0IOWkqe+8iOWQq++8ieS7peWJjTwvdGQ+PHRkPjxzcGFuIGNsYXNzPSJiYXIiIHN0eWxlPSJ3aWR0aDo2MHB4Ij48L3NwYW4+MTAwJTwvdGQ+PC90cj4KICAgICAgICAgICAgICAgIDx0cj48dGQ+MTDigJMxMyDlpKk8L3RkPjx0ZD48c3BhbiBjbGFzcz0iYmFyIiBzdHlsZT0id2lkdGg6NDJweCI+PC9zcGFuPjcwJTwvdGQ+PC90cj4KICAgICAgICAgICAgICAgIDx0cj48dGQ+N+KAkzkg5aSpPC90ZD48dGQ+PHNwYW4gY2xhc3M9ImJhciIgc3R5bGU9IndpZHRoOjMwcHgiPjwvc3Bhbj41MCU8L3RkPjwvdHI+CiAgICAgICAgICAgICAgICA8dHI+PHRkPjTigJM2IOWkqTwvdGQ+PHRkPjxzcGFuIGNsYXNzPSJiYXIiIHN0eWxlPSJ3aWR0aDoyNHB4Ij48L3NwYW4+NDAlPC90ZD48L3RyPgogICAgICAgICAgICAgICAgPHRyPjx0ZD4y4oCTMyDlpKk8L3RkPjx0ZD48c3BhbiBjbGFzcz0iYmFyIiBzdHlsZT0id2lkdGg6MThweCI+PC9zcGFuPjMwJTwvdGQ+PC90cj4KICAgICAgICAgICAgICAgIDx0cj48dGQ+MSDlpKk8L3RkPjx0ZD48c3BhbiBjbGFzcz0iYmFyIiBzdHlsZT0id2lkdGg6MTJweCI+PC9zcGFuPjIwJTwvdGQ+PC90cj4KICAgICAgICAgICAgICAgIDx0cj48dGQ+55W25pel5oiW5pyq5YiwPC90ZD48dGQ+MCU8L3RkPjwvdHI+CiAgICAgICAgICAgICAgPC90Ym9keT4KICAgICAgICAgICAgPC90YWJsZT4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPHAgY2xhc3M9ImZpbmUiIHN0eWxlPSJtYXJnaW4tdG9wOjEycHgiPuWFpeS9j+eVtuWkqeiLpeiHuuadsee4o+aUv+W6nOWuo+W4g+WBnOatouS4iuePreS4iuiqsu+8jOWumumHkeWFqOmhjemAgOmChOOAgjwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJjYXJkIGZ1bGwiPgogICAgICAgICAgPGgzPumkqOWFp+imj+WumjwvaDM+CiAgICAgICAgICA8dWwgY2xhc3M9Im5vcyI+CiAgICAgICAgICAgIDxsaT7lhajppKjlrqTlhafvvIjlkKvooZvmtbTvvInnpoHoj7g8L2xpPjxsaT7kuI3mjqXlvoXoqKrlrqI8L2xpPjxsaT7npoHmraLmlJzluLblr7Xniak8L2xpPjxsaT7npoHmraLlmrzpo5/mqrPmppQ8L2xpPjxsaT7lpJzplpPoq4vovJXogbLntLDoqp48L2xpPgogICAgICAgICAgPC91bD4KICAgICAgICAgIDxwIGNsYXNzPSJmaW5lIj7mnKrntpPlkIzmhI/nlZnlrr/oqKrlrqLvvIzpoIjliqDmlLbkuIDmmZrmiL/lg7njgILosrTph43nianlk4Hoq4voh6rooYzkv53nrqHjgII8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9zZWN0aW9uPgoKICA8c2VjdGlvbiBpZD0ibG9jYXRpb24iIGNsYXNzPSJzZWMiPgogICAgPGRpdiBjbGFzcz0id3JhcCI+CiAgICAgIDxkaXYgY2xhc3M9ImhlYWQiPgogICAgICAgIDxkaXY+PHNwYW4gY2xhc3M9ImV5ZWJyb3ciPkxvY2F0aW9uPC9zcGFuPjxoMj7lj7DmnbHluILljYDvvIzlh7rploDlsLHmmK/lpb3lkIPlpb3njqk8L2gyPjwvZGl2PgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0ibG9jIj4KICAgICAgICA8ZGl2IGNsYXNzPSJhZGRyLWNhcmQiPgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxM3B4O2NvbG9yOnZhcigtLWluay1zb2Z0KSI+5Zyw5Z2APC9zcGFuPgogICAgICAgICAgICA8cCBjbGFzcz0iYWRkciI+6Ie65p2x57ij6Ie65p2x5biCPGJyPuabtOeUn+i3ryA1NTIg5be3IDUzIOiZnzwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0iZGlyIj4KICAgICAgICAgICAgPGRpdj48Yj7ljJfkuIrvvIjlvoDoirHmnbHnuLHosLfmlrnlkJHvvIk8L2I+5pu055Sf6Lev5pa85Zub57at6Lev5Y+j5Y+z6L2J5oWi6LuK6YGT77yM6YGO56ys5LiA5YCL57SF57ag54eI5b6M56ys5LiA5YCL5be35Y+j5Y+z6L2J77yM57SEIDIwIOWFrOWwuuWNs+mBlOOAgjwvZGl2PgogICAgICAgICAgICA8ZGl2PjxiPuWNl+S4i++8iOW+gOWPsOadseW4guWNgOaWueWQke+8iTwvYj7mm7TnlJ/ot6/mlrzlm5vntq3ot6/lj6Plt6bovYnmhaLou4rpgZPvvIzpgY7nrKzkuIDlgIvntIXntqDnh4jlvoznrKzkuIDlgIvlt7flj6Plj7PovYnvvIzntIQgMjAg5YWs5bC65Y2z6YGU44CCPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXY+PGEgY2xhc3M9ImJ0biBidG4tcGluayIgaHJlZj0iaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL3NlYXJjaC8/YXBpPTEmcXVlcnk9JUU1JThGJUIwJUU2JTlEJUIxJUU3JTkwJUFBJUU3JTkwJUFBJUU4JUE2JUFBJUU1JUFEJTkwJUU2JUIwJTkxJUU1JUFFJUJGIiB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciI+R29vZ2xlIOWcsOWcluWwjuiIqjwvYT48L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8dWwgY2xhc3M9Im5lYXIiIGFyaWEtbGFiZWw9IuWRqOmCiuaZr+m7niI+CiAgICAgICAgICA8bGk+6ZC16Iqx5p2R6Z+z5qiC6IGa6JC9PHNwYW4+5Y+w5p2x6ZC16YGT6Jed6KGT5p2RPC9zcGFuPjwvbGk+CiAgICAgICAgICA8bGk+5Y+w5p2x5qOu5p6X5YWs5ZySPHNwYW4+55C155C25rmW44O76buR5qOu5p6XPC9zcGFuPjwvbGk+CiAgICAgICAgICA8bGk+5Y+w5p2x5rW35r+x5YWs5ZySPHNwYW4+5ZyL6Zqb5Zyw5qiZPC9zcGFuPjwvbGk+CiAgICAgICAgICA8bGk+6a+J6a2a5bGx5YWs5ZySPHNwYW4+5biC5Y2A55m76auY55yL5aSc5pmvPC9zcGFuPjwvbGk+CiAgICAgICAgICA8bGk+5ZyL56uL6Ie654Gj5Y+y5YmN5paH5YyW5Y2a54mp6aSoPHNwYW4+6Kaq5a2Q5b+F6KiqPC9zcGFuPjwvbGk+CiAgICAgICAgICA8bGk+6Ie65p2x576O6KGT6aSoPHNwYW4+6Jed5paH5pWj5q2lPC9zcGFuPjwvbGk+CiAgICAgICAgICA8bGk+5Y+w5p2x57OW5bugPHNwYW4+5paH5Ym15ZyS5Y2APC9zcGFuPjwvbGk+CiAgICAgICAgICA8bGk+5rC05p6c6KGX5aSc5biCPHNwYW4+5Zyo5Zyw5bCP5ZCDPC9zcGFuPjwvbGk+CiAgICAgICAgICA8bGk+56eA5rOw5buj5aC044O75b2x5Z+OPHNwYW4+6Zuo5aSp5YKZ5qGIPC9zcGFuPjwvbGk+CiAgICAgICAgICA8bGk+5bGx5rW36ZC16aas6YGTPHNwYW4+6Kaq5a2Q5Zau6LuKPC9zcGFuPjwvbGk+CiAgICAgICAgICA8bGk+6bm/6YeO6auY5Y+wPHNwYW4+54ax5rCj55CD5ZiJ5bm06I+vPC9zcGFuPjwvbGk+CiAgICAgICAgICA8bGk+57ag5bO2PHNwYW4+6Lez5bO25LiA5pel6YGKPC9zcGFuPjwvbGk+CiAgICAgICAgPC91bD4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICA8L3NlY3Rpb24+CgogIDxzZWN0aW9uIGlkPSJmYXEiIGNsYXNzPSJzZWMiIHN0eWxlPSJwYWRkaW5nLXRvcDowIj4KICAgIDxkaXYgY2xhc3M9IndyYXAiPgogICAgICA8ZGl2IGNsYXNzPSJoZWFkIj48ZGl2PjxzcGFuIGNsYXNzPSJleWVicm93Ij5GQVE8L3NwYW4+PGgyPuW4uOimi+WVj+mhjDwvaDI+PC9kaXY+PC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9ImZhcSI+CiAgICAgICAgPGRldGFpbHMgb3Blbj48c3VtbWFyeT7lj6/ku6XljIXmo5/ll47vvJ/mnIDlpJrkvY/lub7lgIvkurrvvJ88L3N1bW1hcnk+PHA+5Y+v5Lul44CC5YWo6aSo5LiJ6ZaT5Zub5Lq66Kaq5a2Q5oi/77yM5YyF5qOf5pyA5aSaIDEyIOS6uu+8jOmBqeWQiOWFqeS4ieWAi+WutuW6reS4gOi1t+WHuumBiu+8jOmBiuaIsuWNgOiIh+m7nuW/g+WQp+WwseaYr+S9oOWAkeWwiOWxrOeahOOAguWMheajn+WDueagvOiri+S+humbu+a0veipouOAgjwvcD48L2RldGFpbHM+CiAgICAgICAgPGRldGFpbHM+PHN1bW1hcnk+6YGK5oiy5Y2A44CB6Zu75YuV6LuK44CB6bue5b+D6KaB5Y+m5aSW5LuY6LK75ZeO77yfPC9zdW1tYXJ5PjxwPuS4jeeUqOOAgumBiuaIsuWNgOOAgembu+WLleWBieWjq+eJjOWwj+i7iuOAgTI0IOWwj+aZgum7nuW/g+WQp+OAgea0l+iho+eDmOiho+OAgeWBnOi7iu+8jOaIv+WuoumAmumAmuWFjeiyu+S9v+eUqOOAgjwvcD48L2RldGFpbHM+CiAgICAgICAgPGRldGFpbHM+PHN1bW1hcnk+5a+25a+25b6I5bCP77yM6ZyA6KaB6Ieq5bex5bi25LuA6bq877yfPC9zdW1tYXJ5PjxwPua2iOavkumNi+OAgea+oeebhuOAgeWwv+W4g+WPsOOAgeWFkuerpemkkOWFt+OAgeaWveW3tOWssOW5vOWFkuaykOa1tOe1hOawkeWuv+mDveacie+8jOWssOWFkuW6iuWPr+mgkOe0hOOAguWPquimgeW4tuWvtuWvtue/kuaFo+eahOWltueyieOAgeWJr+mjn+WTgeOAgeWwv+W4g+iIh+aPm+a0l+iho+eJqeWwseWlveOAgjwvcD48L2RldGFpbHM+CiAgICAgICAgPGRldGFpbHM+PHN1bW1hcnk+5pyJ5pep6aSQ5ZeO77yfPC9zdW1tYXJ5PjxwPuS4jeS+m+aHieaXqemkkOOAguawkeWuv+atpeihjCA1IOWIhumQmOWFp+WwseacieWkmuWutuefpeWQjeaXqemkkOW6l++8jOS5n+acieWkmuWutuaXqemkkOWklumAgem7nuWWruWPr+S7peWPg+iAg+OAgjwvcD48L2RldGFpbHM+CiAgICAgICAgPGRldGFpbHM+PHN1bW1hcnk+5Y+v5Lul5o+Q5pep5Yiw5oiW5pS+6KGM5p2O5ZeO77yfPC9zdW1tYXJ5PjxwPuaPkOS+m+ihjOadjuWvhOaUvuacjeWLme+8jOWFpeS9j+aZgumWk+eCuuS4i+WNiCA0IOm7nu+8jOaKtemBlOWJjeiri+WFiOS+humbu+WRiuefpeOAgjwvcD48L2RldGFpbHM+CiAgICAgICAgPGRldGFpbHM+PHN1bW1hcnk+6KaB5oCO6bq86KiC5oi/77yfPC9zdW1tYXJ5PjxwPuiri+S+humbu+OAgeWKoCBMSU5FIOaIluengeioiiBGYWNlYm9vayDnsonntbLlsIjpoIHvvIzlkYroqLTmiJHlgJHlhaXkvY/ml6XmnJ/oiIflpKfkurrjgIHlsI/lrankurrmlbjvvIjlkKvlubTpvaHvvInvvIznorroqo3nqbrmiL/lvozljK/lrprph5HljbPlrozmiJDoqILmiL/jgII8L3A+PC9kZXRhaWxzPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogIDwvc2VjdGlvbj4KCiAgPHNlY3Rpb24gaWQ9ImNvbnRhY3QiIGNsYXNzPSJjb250YWN0Ij4KICAgIDxkaXYgY2xhc3M9IndyYXAiPgogICAgICA8ZGl2PgogICAgICAgIDxzcGFuIGNsYXNzPSJleWVicm93Ij5Cb29rIE5vdzwvc3Bhbj4KICAgICAgICA8aDI+5a+S5pqR5YGH44CB6YCj5YGH5b6I5b+r5bCx5ru/77yMPGJyPuaXqem7nuWVj+acgOWuieW/gzwvaDI+CiAgICAgICAgPHA+5pyN5YuZ5pmC6ZaT5q+P5aSpIDEwOjAw4oCTMjI6MDDjgILlkYroqLTmiJHlgJHml6XmnJ/oiIflpKflsI/mnIvlj4vkurrmlbjvvIzppqzkuIrluavkvaDmn6XnqbrmiL/jgII8L3A+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJ3YXlzIj4KICAgICAgICA8YSBjbGFzcz0id2F5IiBocmVmPSJ0ZWw6Kzg4Njk4ODY3ODc2NyI+PGRpdj48c3Bhbj7oqILmiL/lsIjnt5o8L3NwYW4+PGI+MDk4OC02NzgtNzY3PC9iPjwvZGl2PjxpIHN0eWxlPSJiYWNrZ3JvdW5kOnZhcigtLXBpbmspO2NvbG9yOnZhcigtLWluaykiPuaSpeaJk+mbu+ipsTwvaT48L2E+CiAgICAgICAgPGEgY2xhc3M9IndheSIgaHJlZj0iaHR0cHM6Ly9saW5lLm1lL3RpL3AvfjA5ODg2Nzg3NjciIHRhcmdldD0iX2JsYW5rIiByZWw9Im5vb3BlbmVyIj48ZGl2PjxzcGFuPkxJTkUgSUQ8L3NwYW4+PGI+MDk4ODY3ODc2NzwvYj48L2Rpdj48aSBzdHlsZT0iYmFja2dyb3VuZDojMDZDNzU1O2NvbG9yOiNmZmYiPuWKoCBMSU5FPC9pPjwvYT4KICAgICAgICA8YSBjbGFzcz0id2F5IiBocmVmPSJodHRwczovL3d3dy5mYWNlYm9vay5jb20va2lraWtpZDUzLyIgdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9vcGVuZXIiPjxkaXY+PHNwYW4+RmFjZWJvb2sg57KJ57Wy5bCI6aCBPC9zcGFuPjxiPmtpa2lraWQ1MzwvYj48L2Rpdj48aSBzdHlsZT0iYmFja2dyb3VuZDp2YXIoLS1za3kpO2NvbG9yOnZhcigtLWluaykiPuengeioiueyieWwiDwvaT48L2E+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9zZWN0aW9uPgo8L21haW4+Cgo8Zm9vdGVyPgogIDxkaXYgY2xhc3M9IndyYXAiPgogICAgPHNwYW4+wqkgMjAyNiDntrLnq5noqK3oqIjvvJrkuZ3omZ/np5HmioDlt6XkvZzlrqQgTklOVEggTEFC77yIMDk3OC0wMzMtMDg577yJ54mI5qyK5omA5pyJ44O75o+Q5qGI5bGV56S654mI5pys77yM5pyq57aT5o6I5qyK56aB5q2i6KSH6KO95oiW5L2/55SoPC9zcGFuPgogICAgPHNwYW4+5rCR5a6/6LOH6KiK6IiH54Wn54mH5Y+W6Ieq5YWs6ZaL57ay6Lev6LOH5paZ77yM54Wn54mH54mI5qyK5bGs5Y+w5p2x55Cq55Cq6Kaq5a2Q5rCR5a6/PC9zcGFuPgogIDwvZGl2Pgo8L2Zvb3Rlcj4KCjxkaXYgY2xhc3M9Im1iYXIiPgogIDxhIGNsYXNzPSJidG4gYnRuLXNvZnQiIGhyZWY9Imh0dHBzOi8vbGluZS5tZS90aS9wL34wOTg4Njc4NzY3IiB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciI+TElORSDoqaLllY88L2E+CiAgPGEgY2xhc3M9ImJ0biBidG4tcGluayIgaHJlZj0idGVsOis4ODY5ODg2Nzg3NjciPumbu+ipseioguaIvzwvYT4KPC9kaXY+Cgo8ZGlhbG9nIGlkPSJub3RpY2UiIGFyaWEtbGFiZWxsZWRieT0ibm90aWNlVGl0bGUiPgogIDxzcGFuIGNsYXNzPSJleWVicm93Ij5EZW1vPC9zcGFuPgogIDxoMiBpZD0ibm90aWNlVGl0bGUiPue2suermeaPkOahiOWxleekuueJiDwvaDI+CiAgPHA+6YCZ5piv5Lmd6Jmf56eR5oqA5bel5L2c5a6kIE5JTlRIIExBQiDngrrjgIzlj7DmnbHnkKrnkKropqrlrZDmsJHlrr/jgI3oo73kvZznmoTlrpjntrLmj5DmoYjvvIzmsJHlrr/os4foqIroiIfnhafniYflj5boh6rlhazplovntrLot6/os4fmlpnvvIzlg4XkvpvoqZXkvLDlj4PogIPjgII8L3A+CiAgPHVsPjxsaT7mnKrntpPmm7jpnaLmjojmrIrvvIznpoHmraLopIfoo73jgIHkuIvovInjgIHovYnovInmiJboh6rooYzkuIrnt5rkvb/nlKjjgII8L2xpPjxsaT7mraPlvI/niYjlsIfkvb/nlKjmsJHlrr/mjojmrIrnmoTljp/lp4vnhafniYfvvIzku6Xlj4rnorroqo3lvoznmoTmiL/lg7noiIflhaflrrnjgII8L2xpPjxsaT7mraPlvI/kuIrnt5rjgIHntrLln5/oiIflvoznuozntq3orbfvvIzoq4vmtL3kuZ3omZ/np5HmioDlt6XkvZzlrqTvvJowOTc4LTAzMy0wODk8L2xpPjwvdWw+CiAgPGJ1dHRvbiB0eXBlPSJidXR0b24iIGlkPSJub3RpY2VPayIgY2xhc3M9ImJ0biBidG4tcGluayI+5oiR5LqG6Kej77yM6ZaL5aeL54CP6Ka9PC9idXR0b24+CjwvZGlhbG9nPgoK"),function(c){return c.charCodeAt(0);})));</script>
 <dialog id="lb" aria-label="放大照片"><button type="button" id="lbClose" aria-label="關閉">×</button><img id="lbImg" alt=""></dialog>
 <script>
 (function(){
@@ -612,6 +320,21 @@ dialog button{position:fixed;top:calc(14px + env(safe-area-inset-top,0px));right
   });
   document.getElementById('lbClose').addEventListener('click',function(){lb.close();});
   lb.addEventListener('click',function(e){if(e.target===lb)lb.close();});
+})();
+</script>
+<script>
+(function(){
+  var t=document.createElement('div');t.className='toast';t.setAttribute('role','status');document.body.appendChild(t);var h;
+  function warn(){t.textContent='此為九號科技工作室 NINTH LAB 提案展示版，未經授權禁止複製或下載';t.classList.add('show');clearTimeout(h);h=setTimeout(function(){t.classList.remove('show');},2400);}
+  ['contextmenu','copy','cut','dragstart','selectstart'].forEach(function(ev){document.addEventListener(ev,function(e){e.preventDefault();warn();});});
+  document.addEventListener('keydown',function(e){var k=(e.key||'').toLowerCase(),m=e.ctrlKey||e.metaKey;if(e.key==='F12'||(m&&['s','u','p','c','a'].indexOf(k)>-1)||(m&&(e.shiftKey||e.altKey)&&['i','j','c','u'].indexOf(k)>-1)){e.preventDefault();warn();}});
+  var svg='<svg xmlns="http://www.w3.org/2000/svg" width="360" height="220"><g transform="rotate(-24 180 110)" font-family="sans-serif" text-anchor="middle" fill="rgba(58,46,75,0.11)"><text x="180" y="108" font-size="20" font-weight="700">提案展示版・NINTH LAB</text><text x="180" y="134" font-size="12">未經授權禁止使用</text></g></svg>';
+  var bg='url("data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg)+'")';
+  function mk(){var d=document.createElement('div');d.className='wm';d.setAttribute('aria-hidden','true');d.style.backgroundImage=bg;return d;}
+  function ensure(){if(!document.querySelector('body>.wm'))document.body.appendChild(mk());var lb=document.getElementById('lb');if(lb&&!lb.querySelector('.wm'))lb.appendChild(mk());}
+  ensure();new MutationObserver(ensure).observe(document.body,{childList:true,subtree:true});
+  var n=document.getElementById('notice');
+  if(n&&n.showModal){n.showModal();document.getElementById('noticeOk').addEventListener('click',function(){n.close();});}
 })();
 </script>
 </body>
